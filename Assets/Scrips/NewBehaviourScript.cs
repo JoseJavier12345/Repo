@@ -44,13 +44,13 @@ public class NewBehaviourScript : MonoBehaviour
 
     if (Input.GetKeyDown(KeyCode.W))
         {
-            fuerza_y = fuerza_y - 100;
+            fuerza_y = fuerza_y + 50;
         }
 
 
         if (Input.GetKeyDown(KeyCode.S))
         {
-            fuerza_y = fuerza_y + 100;
+            fuerza_y = fuerza_y - 50;
         }
 
     }
